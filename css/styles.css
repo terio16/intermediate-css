@@ -5,3 +5,19 @@
     padding: 2%;
     width: 25%;
 }
+
+.bio-wrapper {
+    background-color: aquamarine;
+    font-size: 24px;
+    height: 300px;
+    overflow: auto;
+}
+
+.bio-wrapper:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
