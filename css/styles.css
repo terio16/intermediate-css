@@ -3,14 +3,16 @@
     float: left;
     font-size: 1rem;
     padding: 2%;
-    width: 21%;
+    width: 23%;
     box-sizing: border-box;
-    margin: 2%;
+    margin: 40px 1% 0;
 }
 
 .bio-wrapper {
     background-color: #c0e0c3;
     font-size: 24px;
+    margin: auto;
+    max-width: 960px;
 }
 
 .bio-wrapper:after {
@@ -29,4 +31,15 @@
 
 .social-list > li {
     display: inline-block;
+}
+
+.bio-box img {
+   width: 100%;
+}
+
+.bio-box h3 {
+    color: #fff;
+    font-size: 1.5em;
+    margin: -40px 0 1em;
+    text-align: center;
 }
