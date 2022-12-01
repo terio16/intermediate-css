@@ -6,7 +6,6 @@
     width: 23%;
     box-sizing: border-box;
     margin: 40px 1% 0;
-
 }
 
 .bio-wrapper {
@@ -28,10 +27,23 @@
 .social-list {
     list-style: none;
     padding: 0;
+    text-align: center;
 }
 
 .social-list > li {
     display: inline-block;
+    background: green;
+    width: 3.5em;
+    height: 3.5em;
+    border-radius: 100px;
+    box-sizing: border-box;
+    padding: 1.25em;
+    font-size: 1em;
+    line-height: 1;
+}
+
+.social-list a {
+    text-decoration: none;
 }
 
 .bio-box img {
@@ -43,4 +55,9 @@
     font-size: 1.5em;
     margin: -40px 0 1em;
     text-align: center;
+}
+
+.full-hero {
+    background-color: lightblue;
+    height: 40vh;
 }
